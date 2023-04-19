@@ -48,11 +48,11 @@ To run the program, use the command:
 $ python3 org-wide-block.py
 ```
 
-**select your organization**: This is the organization in which you would like to block devices
+**Select Your Organization**: This is the organization in which you would like to block devices
 
 ![/IMAGES/select_org.png](/IMAGES/select_org.png)
 
-**select your network**: This is the network in which you would like to block devices. If you would like to block on all networks select all.
+**Select Your Network**: This is the network in which you would like to block devices. If you would like to block on all networks select all.
 
 ![/IMAGES/select_network.png](/IMAGES/select_network.png)
 
@@ -60,18 +60,19 @@ $ python3 org-wide-block.py
 
 ![/IMAGES/provision.png](/IMAGES/provision.png)
 
-**Before**
+**Meraki Dashboard Client View (Before)**
 
 ![/IMAGES/before_block_dashboard.png](/IMAGES/before_block_dashboard.png)
 
-**After**
-If the device has been seen within the network prior to block
+**Meraki Dashboard Client View (After)**
+
+If the device has been seen within the network prior to block:
 
 ![/IMAGES/block_seen_dashboard.png](/IMAGES/block_seen_dashboard.png)
 
-If the device has not been seen on the network prior to block
+If the device has **not** been seen on the network prior to block:
 
-![/IMAGES/block_seen_dashboard.png](/IMAGES/block_seen_dashboard.png)
+![](IMAGES/block_not_seen_dashboard.png)
 
 ![/IMAGES/0image.png](/IMAGES/0image.png)
 
