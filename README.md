@@ -1,4 +1,9 @@
-# gve_devnet_meraki_org_wide_mac_block
+# Meraki Organization Wide MAC Block
+
+This script takes a CSV containing MAC Address and desired Client Group Policy, and it updates the client group policy in each network across an organization (most notably for blocking clients). If a network has seen the client, the policy is updated, otherwise a preemptive policy is created.
+
+Supported Policies include: `Allowed`, `Blocked`, or a Custom Group Policy Name.
+
 
 ## Contacts
 
@@ -20,7 +25,7 @@ In order to use the Meraki API, you need to enable the API for your organization
 3. Click on `Enable access to the Cisco Meraki Dashboard API`
 4. Go to `My Profile > API access`
 5. Under API access, click on `Generate API key`
-6. Save the API key in a safe place. The API key will only be shown once for security purposes, so it is very important to take note of the key then. In case you lose the key, then you have to revoke the key and a generate a new key. Moreover, there is a limit of only two API keys per profile.
+6. Save the API key in a safe place. The API key will only be shown once for security purposes, so it is very important to take note of the key then. In case you lose the key, then you have to revoke the key and generate a new key. Moreover, there is a limit of only two API keys per profile.
 
 > For more information on how to generate an API key, please click [here](https://developer.cisco.com/meraki/api-v1/#!authorization/authorization).
 

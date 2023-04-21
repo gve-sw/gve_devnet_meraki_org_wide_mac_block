@@ -5,6 +5,3 @@ __pycache__/
 # IDE Files
 .idea/
 .DS_Store
-
-# CSV File Input
-*.csv
